@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/model-bun2-modified.png" />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- javascrript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d607b0ff5c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <!-- <style>
+      input {
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        margin: 5px;
+        outline: none;
+      }
+      input[type="submit"] {
+        width: 150px;
+      }
+      input::placeholder {
+        color: #ffffff;
+        opacity: 1;
+      }
+      input:placeholder-shown {
+        border: 2px solid #ffffff;
+      }
+    </style> -->
+    <title>Lacrima Mariei Scaius</title>
+  </head>
+  <body>
+    <header>
+      <!----------NavigationBar---------->
+      <section id="nav-bar">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <div class="container-fluid">
+            <img class="logo-img" src="img/model-bun2-modified.png" alt="" />
+            <p class="name">Sanctuarul Marian Scaius</p>
+            <!--  -->
+            <a class="navbar-brand" href="#top"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">ACASA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#despre">DESPRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rugaciune">RUGACIUNE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#donatii">DONATII</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <section>
+      <!------------Slider1----------->
+      <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#headerSlider"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#headerSlider"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#headerSlider"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="img/IMG_3.JPG" class="d-block img-fluid" alt="altar" />
+              <div class="carousel-caption">
+                <!-- <h3>H3 H3 H3</h3> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/IMG_2.JPG"
+                class="d-block img-fluid"
+                alt="pomulVietii"
+              />
+              <div class="carousel-caption"></div>
+            </div>
+            <div class="carousel-item active">
+              <img
+                src="img/IMG_1.JPG"
+                class="d-block img-fluid"
+                alt="biserica"
+              />
+              <div class="carousel-caption">
+                <!-- <h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda, voluptates magnam porro similique, blanditiis
+                  explicabo ipsa eligendi distinctio iusto tempora nisi
+                  architecto vel! Doloribus autem earum esse repellendus,
+                  reiciendis quas.
+                </h3> -->
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--Despre-->
+      <div id="despre">
+        <h2>Despre noi</h2>
+        <p class="despre-noi">
+          Scaiusul este un loc care nu te lasa indiferent. Trebuie sa mergi
+          acolo ca sa intelegi. Este un loc special; iti da seninatate si te
+          face sa vrei sa te rogi!!! Un loc unde se intampla adevarate minuni!!!
+          De la Scaius vine mult mai mult decat ar putea ori ce om sa creada ,
+          vine un semn de la Preacurata Fecioara Maria, cea care ne asteapta cu
+          ochii in lacrimi, precum o mama care isi asteapta copiii sa se
+          intoarca dintr-o calatorie foarte indepartata,ea nu ne abandoneaza
+          niciodata, ea ramane alaturi de noi si ne ajuta sa putem demonstra
+          valoarea credintei noastre.
+        </p>
+      </div>
+
+      <!--HR-->
+      <hr class="style14" />
+      <!--HR-->
+
+      <!------------Lacrimarea------------>
+
+      <section id="lacrimarea">
+        <!--First-->
+        <div class="container">
+          <!-- <div class="row">
+            <div class="col"> -->
+          <h2 class="text-center">Minunea Lacrimarii - 1934</h2>
+          <!-- </div>
+          </div> -->
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img class="lacrimarea-img1" src="img/IMG_5781-crop.jpg" alt="" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <p class="lacrimarea-p1 text-center">
+                Despre minunea lacrimarii Icoanei Fecioarei Maria de la Scaius,
+                acesta a devenit un eveniment de notorietatea al anului 1934,
+                deoarece intreaga obste a satului participa la Ruga (hora).
+                Lacrimarea sa petrecut in doua etape, 30 septembrie respectiv 15
+                octombrie si la ambele evenimente au participat sute de martori,
+                inclusiv autoritatile locale si s-au luat sute de declaratii sub
+                juramant.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <!-- <div class="lacrimarea">
+                </div> -->
+              <p class="lacrimarea-p2 text-center">
+                Lacrimarea Maicii Domnului, asa precum au spus multi, ar putea
+                semnifica anii de prigoana comunista care au urmat, desfiintarea
+                Bisericii greco catolice, dar si ororile razboiului care au
+                facut atatea victime. Daca privim in prezent realizam ca
+                lacrimile Maicii sunt semn al durerii pentru pandemia din lume
+                si din Biserica, dar unde s-a inmultit pacatul s-a revarsat
+                harul cu prisosinta.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img class="lacrimarea-img2" src="img/IMG_5746.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--HR-->
+      <hr class="style14" />
+      <!--HR-->
+
+      <section id="istoric">
+        <div class="istoric">
+          <div class="container">
+            <h2>Scurt istoric</h2>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <img class="istoric-img" src="img/IMG_5718.jpg" alt="" />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="text-center">
+                  <b>Scăiuş</b> este o comună situată la 25 km de Lugoj, în
+                  direcţia oraşului Reşiţa. În trecut era în judeţul Severin,
+                  iar astăzi este în judeţul Caraş-Severin. Comuna Scăiuş se
+                  întinde pe mai multe dealuri într-o regiune de păduri. Prima
+                  dată apare în documente prin secolul al XVII-lea, în legătură
+                  cu plata dărilor (impozite) unui agă turcesc, numit Osman.
+                </p>
+                <p class="text-center">
+                  Numirea de „Scăiuş” nu se poate preciza de unde vine; fie de
+                  la „scai”, „scaieţi, regiunea fiind săracă, greu cultivabilă,
+                  fie de la „schei”, populaţie slavă.
+                </p>
+                <p class="text-center">
+                  Prin anul 1890 familia Martiac Mihai şi soţia sa Marta au
+                  cumpărat o icoană a Preacuratei cu Pruncul Isus în braţe, pe
+                  care au dăruit-o capelei.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="text-center">
+                  Icoana este o cromolitografie în stilul Renaşterii şi e foarte
+                  frumoasă. Credincioşii au împodobit-o cu o coroană de argint,
+                  după modelul celei pictate pe icoană. Coroana de argint era
+                  atât pe capul Fecioarei Maria cât şi a Pruncului Isus,
+                  construită dintr-o singură bucată.
+                </p>
+
+                <p class="text-center">
+                  A fost făcută la Lugoj de argintarul evreu Koloman Blum.
+                  Credincioşii i-au mai atârnat Fecioarei, mărgele la gât şi
+                  i-au pus văl pe cap, aşa că icoana a devenit destul de
+                  încărcată, probabil după stilul vechi slovac.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <img class="istoric-img3" src="img/IMG_5738.JPG" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="text-center">
+                  Icoana a fost aşezată într-o cutie de lemn, rama care avea
+                  câte o uşită şi în faţă şi în spate. Pe dosul icoanei
+                  cumpărate s-a lipit o altă icoană cu „Fuga în Egipt”. Întreaga
+                  cutie-ramă avea verigi laterale în care se puteau introduce
+                  beţe. La sărbători şi procesiuni, patru copile îmbrăcate în
+                  alb purtau icoana în mâini sau pe umăr.
+                </p>
+                <p class="text-center">
+                  Icoana a fost aşezată pe o măsuţă între strana din dreapta şi
+                  iconostas.
+                </p>
+                <p class="text-center">
+                  Cel mai notabil eveniment din existenţa localităţii din
+                  Scăiuş, eveniment care i-a adus notorietatea, s-a petrecut în
+                  toamna anului 1934 şi a fost consemnat în 150 de declaraţii
+                  date sub jurământ a unor martori oculari de diferite religii
+                  şi pregătiri intelectuale.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <img class="istoric-img2" src="img/IMG_5773.JPG" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--HR-->
+      <hr class="style14" />
+      <!--HR-->
+
+      <!------------Formular rugaciune------------>
+      <section id="rugaciune">
+        <div class="container">
+          <div class="rugaciune">
+            <!-- <h2 class="ne-rugam-impreuna">Ne rugam pentru tine</h2> -->
+            <p class="p-titlu-ruga">
+              <b class="titlu-ruga">Ne rugam pentru tine</b><br />
+              Trimite-ne intentiile tale de rugaciune.<br />Ele vor fi
+              incredintate Maicii Domnului de la Scaius.<br />
+              Preotul se va ruga pentru tine si ii va cere lui Dumnezeu sa iti
+              acorde asistenta de care ai nevoie prin mijlocirea Fecioarei
+              Maria.
+            </p>
+            <div>
+              <form
+                class="contact-form"
+                method="POST"
+                action="mailto:parohia-scaius@lacrima-mariei-scaius.ro"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="Nume Prenume"
+                    placeholder="Nume Prenume"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    name="Telefon:"
+                    placeholder="Numar telefonul"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="E-mail"
+                    placeholder="Adresa E-mail"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    name="Mesajul Dvs:"
+                    rows="8"
+                    cols="50"
+                    placeholder="Rugaciune Dumneavoastra"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-trimite">Trimite</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--HR-->
+      <hr class="style14" />
+      <!--HR-->
+
+      <!-- <section id="contact"> -->
+
+      <div id="donatii">
+        <!-- <div class="container">
+          <div class="row"> -->
+        <div class="col col-lg-12 col-sm-12">
+          <h2 id="donatiiH2">Donatii</h2>
+          <br />
+          <p>
+            Consideram ca este important de stiut ca toti cei care ofera un
+            ajutor pentru edificarea bisericii, <br />pentru marirea lui
+            Dumnezeu sau in onoarea Maicii Domnui, fac o fapta supranaturala si
+            nu va ramane nerecompensata.<br />
+            <!-- </p>
+          <p> -->
+            "Prea Sfanta Marie, Maica lui Dumnezeu, roaga-te pentru noi,
+            pacatosii, acum si in ora mortii noastre." <br />Amin !
+          </p>
+
+          <input
+            class="donatii-btn"
+            type="button"
+            onClick="parent.location='donatii.html'"
+            value="Doneaza"
+          />
+        </div>
+        <!-- </div>
+        </div> -->
+      </div>
+
+      <section id="contact">
+        <div class="container">
+          <h1>Contact:</h1>
+          <form
+            class="contact-form"
+            method="POST"
+            action="mailto:parohia-scaius@lacrima-mariei-scaius.ro"
+            enctype="text/plain"
+          >
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="Nume Prenume:"
+                    placeholder="Nume Prenume"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    name="Telefon:"
+                    placeholder="Numar telefon"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="E-mail:"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    name="Mesajul Dvs:"
+                    placeholder="Mesajul Dumneavoastra"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-trimite">Trimite</button>
+              </div>
+              <div class="col-md-6 contact-info">
+                <div class="follow">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <b>Adresa: </b>
+                  str. Principala Nr. 170 Scaius Jud. Caras-Severin Romania
+                </div>
+                <div class="follow">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <b>Telefon: </b>
+                  <a href="call:+40731849029">0731849029</a>
+                </div>
+                <div class="follow">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <b>Email: </b>
+                  <a href="mailto:parohia-scaius@lacrima-mariei-scaius.ro"
+                    >parohia-scaius@lacrima-mariei-scaius.ro</a
+                  >
+                </div>
+                <div class="follow">
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <label
+                    ><b>Facebook: </b
+                    ><a href="https://www.facebook.com/groups/646843916137495"
+                      >Ne rugam impreuna</a
+                    ></label
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <p>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11182.440961074379!2d21.90826173904388!3d45.51792411562411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474fc5f32500d909%3A0x33baee729464fe41!2sSanctuar%20marian%20Maica%20Domnului%20Ap%C4%83r%C4%83toarea%20Noastr%C4%83!5e0!3m2!1sro!2sro!4v1633603002570!5m2!1sro!2sro"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </p>
+
+      <!-- </section> -->
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <img
+                class="footer-img"
+                src="img/model-bun2-modified.png"
+                alt=""
+              />
+              <p class="name-footer" style="color: azure">
+                <b>Sanctuarul Marian Scaius</b>
+              </p>
+              <p class="col-sm-12 text-center" style="color: azure">
+                Bucura-te; Marie, cea plina de har, Domnul este cu tine,
+                binecuvantata esti tu intre femei, si binecuvantat este rodul
+                trupului tau Isus. Sfanta Marie, Maica lui Dumnezeu, roaga-te
+                pentru noi pacatosii, acum si in ceasul mortii noastre. Amin
+              </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img
+                src="img/about/bible-2110439_640.jpg"
+                class="footer-img"
+                alt=""
+                style="border-radius: 50%"
+              />
+
+              <a href="#top">Acasa</a>
+              <a href="#despre">Despre</a>
+              <a href="#rugaciune">Rugaciune</a>
+              <a href="#donatii">Donatii</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="empty-footer">
+        <div class="container-fluid"></div>
+      </div>
+    </footer>
+  </body>
+</html>
